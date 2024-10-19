@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AuthRegForm</class>
+ <widget class="QWidget" name="AuthRegForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(202, 255, 201);</string>
+  </property>
+  <widget class="QLabel" name="label_email">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>43</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_email">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>10</y>
+     <width>123</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Time New Roman</family>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 128, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Time New Roman&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Sign up</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>491</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_auth">
+        <property name="font">
+         <font>
+          <family>Time New Roman</family>
+          <pointsize>9</pointsize>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 128, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Time New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Authentification</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_registration">
+        <property name="font">
+         <font>
+          <family>Time New Roman</family>
+          <pointsize>9</pointsize>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 128, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Time New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Registration</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_adminlogin">
+        <property name="font">
+         <font>
+          <family>Time New Roman</family>
+          <pointsize>9</pointsize>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 128, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Time New Roman&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Admin login</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border: 1px solid rgb(0,128,0);
+	border-radius: 10px;
+	background-color: rgb(255,255,255);
+	padding-left:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLineEdit" name="lineEdit_email">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border: 1px solid rgb(0,128,0);
+	border-radius: 10px;
+	background-color: rgb(255,255,255);
+	padding-left:5px;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="lineEdit_login">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border: 1px solid rgb(0,128,0);
+	border-radius: 10px;
+	background-color: rgb(255,255,255);
+	padding-left:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

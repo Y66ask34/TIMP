@@ -1,0 +1,10 @@
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install qtbase5-dev
+COPY <path_from> <container_id>:<path_to>
+RUN qmake<proj_name.pro>
+RUN make
+CMD ./<proj_name>
+ENTYPOINT ./<proj_name>
+docker build
+docker run

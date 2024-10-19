@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>task_one</class>
+ <widget class="QWidget" name="task_one">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(202, 255, 201);</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>371</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_task">
+      <property name="styleSheet">
+       <string notr="true">
+font: 12pt &quot;Time New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>equation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_first">
+        <property name="text">
+         <string>a:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_second">
+        <property name="text">
+         <string>b:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_accuracy">
+        <property name="text">
+         <string>accuracy</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_c">
+        <property name="text">
+         <string>c:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_answer">
+          <property name="styleSheet">
+           <string notr="true">QLineEdit
+{
+	border: 1px solid rgb(0,128,0);
+	border-radius: 550px;
+	background-color: rgb(255,255,255);
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_send">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 128, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Time New Roman&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Send</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_return">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 128, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Time New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Return to menu</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
