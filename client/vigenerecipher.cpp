@@ -10,7 +10,7 @@ bool VigenereCipher::isAlpha(char c) {
     return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
 }
 
-QByteArray VigenereCipher::generateKey(const QByteArray &text) {
+QByteArray VigenereCipher::generateKey(const QByteArray &text) {    // генерация ключа
     QByteArray generatedKey;
     int keyIndex = 0;
     for (int i = 0; i < text.size(); ++i) {
@@ -45,7 +45,7 @@ char VigenereCipher::unshiftChar(char c, char keyChar) {
     return c;
 }
 
-QByteArray VigenereCipher::encrypt(const QByteArray &plaintext) {
+QByteArray VigenereCipher::encrypt(const QByteArray &plaintext) {   //шифровка
     QByteArray result;
     QByteArray generatedKey = generateKey(plaintext);
     for (int i = 0; i < plaintext.size(); ++i) {
@@ -57,7 +57,7 @@ QByteArray VigenereCipher::encrypt(const QByteArray &plaintext) {
     return plaintext;
 }
 
-QByteArray VigenereCipher::decrypt(const QByteArray &ciphertext) {
+QByteArray VigenereCipher::decrypt(const QByteArray &ciphertext) {  // дешифровка
 
     QByteArray result;
     QByteArray generatedKey = generateKey(ciphertext);
